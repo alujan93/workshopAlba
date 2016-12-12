@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='swiftProtocolsAndGenericsTests.xctest' tests='4' failures='0'>
+  <testsuite name='swiftProtocolsAndGenericsTests.EditDistanceTest' tests='2' failures='0'>
+    <testcase classname='swiftProtocolsAndGenericsTests.EditDistanceTest' name='testDistance' time='0.002'/>
+    <testcase classname='swiftProtocolsAndGenericsTests.EditDistanceTest' name='testPerformanceExample' time='0.414'/>
+  </testsuite>
+  <testsuite name='swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests' tests='2' failures='0'>
+    <testcase classname='swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests' name='testExample' time='0.000'/>
+    <testcase classname='swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests' name='testPerformanceExample' time='0.253'/>
+  </testsuite>
+</testsuites>

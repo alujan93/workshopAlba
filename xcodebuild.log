@@ -1,0 +1,54 @@
+User defaults from command line:
+    enableCodeCoverage = YES
+
+Build settings from command line:
+    TEST_AFTER_BUILD = YES
+
+=== CLEAN TARGET swiftProtocolsAndGenerics OF PROJECT swiftProtocolsAndGenerics WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Create product structure
+/bin/mkdir -p /Users/dennishirschhaenger/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenerics-eazgbheuksybnzaauakbbclmlgdv/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenerics.framework/Modules
+/bin/mkdir -p /Users/dennishirschhaenger/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenerics-eazgbheuksybnzaauakbbclmlgdv/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenerics.framework/Headers
+
+Clean.Remove clean /Users/dennishirschhaenger/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenerics-eazgbheuksybnzaauakbbclmlgdv/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenerics.framework
+    builtin-rm -rf /Users/dennishirschhaenger/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenerics-eazgbheuksybnzaauakbbclmlgdv/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenerics.framework
+
+Clean.Remove clean /Users/dennishirschhaenger/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenerics-eazgbheuksybnzaauakbbclmlgdv/Build/Intermediates/swiftProtocolsAndGenerics.build/Debug-iphonesimulator/swiftProtocolsAndGenerics.build
+    builtin-rm -rf /Users/dennishirschhaenger/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenerics-eazgbheuksybnzaauakbbclmlgdv/Build/Intermediates/swiftProtocolsAndGenerics.build/Debug-iphonesimulator/swiftProtocolsAndGenerics.build
+
+** CLEAN SUCCEEDED **
+
+=== BUILD TARGET swiftProtocolsAndGenerics OF PROJECT swiftProtocolsAndGenerics WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET swiftProtocolsAndGenericsTests OF PROJECT swiftProtocolsAndGenerics WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** TEST SUCCEEDED **
+
+Test Suite 'All tests' started at 2016-12-12 09:12:25.568
+Test Suite 'swiftProtocolsAndGenericsTests.xctest' started at 2016-12-12 09:12:25.570
+Test Suite 'EditDistanceTest' started at 2016-12-12 09:12:25.572
+Test Case '-[swiftProtocolsAndGenericsTests.EditDistanceTest testDistance]' started.
+Test Case '-[swiftProtocolsAndGenericsTests.EditDistanceTest testDistance]' passed (0.003 seconds).
+Test Case '-[swiftProtocolsAndGenericsTests.EditDistanceTest testPerformanceExample]' started.
+/Users/dennishirschhaenger/Documents/alba/workshopAlba/swiftProtocolsAndGenerics/swiftProtocolsAndGenericsTests/EditDistanceTest.swift:75: Test Case '-[swiftProtocolsAndGenericsTests.EditDistanceTest testPerformanceExample]' measured [Time, seconds] average: 0.011, relative standard deviation: 10.549%, values: [0.014382, 0.010861, 0.010309, 0.010527, 0.010459, 0.010401, 0.012049, 0.010754, 0.011522, 0.010699], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[swiftProtocolsAndGenericsTests.EditDistanceTest testPerformanceExample]' passed (0.383 seconds).
+Test Suite 'EditDistanceTest' passed at 2016-12-12 09:12:25.962.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.386 (0.390) seconds
+Test Suite 'swiftProtocolsAndGenericsTests' started at 2016-12-12 09:12:25.963
+Test Case '-[swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests testExample]' started.
+Test Case '-[swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests testExample]' passed (0.001 seconds).
+Test Case '-[swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests testPerformanceExample]' started.
+/Users/dennishirschhaenger/Documents/alba/workshopAlba/swiftProtocolsAndGenerics/swiftProtocolsAndGenericsTests/swiftProtocolsAndGenericsTests.swift:33: Test Case '-[swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 105.904%, values: [0.000005, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[swiftProtocolsAndGenericsTests.swiftProtocolsAndGenericsTests testPerformanceExample]' passed (0.258 seconds).
+Test Suite 'swiftProtocolsAndGenericsTests' passed at 2016-12-12 09:12:26.226.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.260 (0.263) seconds
+Test Suite 'swiftProtocolsAndGenericsTests.xctest' passed at 2016-12-12 09:12:26.226.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.646 (0.656) seconds
+Test Suite 'All tests' passed at 2016-12-12 09:12:26.227.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.646 (0.659) seconds

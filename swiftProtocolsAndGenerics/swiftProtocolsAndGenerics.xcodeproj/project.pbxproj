@@ -11,6 +11,7 @@
 		072EB46E1DEC448800C32C53 /* swiftProtocolsAndGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EB46D1DEC448800C32C53 /* swiftProtocolsAndGenericsTests.swift */; };
 		072EB4701DEC448800C32C53 /* swiftProtocolsAndGenerics.h in Headers */ = {isa = PBXBuildFile; fileRef = 072EB4621DEC448800C32C53 /* swiftProtocolsAndGenerics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		072EB49E1DEC491700C32C53 /* EditDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EB49D1DEC491700C32C53 /* EditDistance.swift */; };
+		072EB4A21DEC4FF700C32C53 /* EditDistanceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EB4A11DEC4FF700C32C53 /* EditDistanceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		072EB46D1DEC448800C32C53 /* swiftProtocolsAndGenericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftProtocolsAndGenericsTests.swift; sourceTree = "<group>"; };
 		072EB46F1DEC448800C32C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072EB49D1DEC491700C32C53 /* EditDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDistance.swift; sourceTree = "<group>"; };
+		072EB4A11DEC4FF700C32C53 /* EditDistanceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDistanceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				072EB46D1DEC448800C32C53 /* swiftProtocolsAndGenericsTests.swift */,
 				072EB46F1DEC448800C32C53 /* Info.plist */,
+				072EB4A11DEC4FF700C32C53 /* EditDistanceTest.swift */,
 			);
 			path = swiftProtocolsAndGenericsTests;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072EB4A21DEC4FF700C32C53 /* EditDistanceTest.swift in Sources */,
 				072EB46E1DEC448800C32C53 /* swiftProtocolsAndGenericsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
